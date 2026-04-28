@@ -15,7 +15,7 @@ const MOVIES = ghibli.map(
     }),
 );
 
-function watchMovie(movie: Movie, seen: boolean, liked: boolean): Movie {
+export function watchMovie(movie: Movie, seen: boolean, liked: boolean): Movie {
     return {
         ...movie,
         watched: {
