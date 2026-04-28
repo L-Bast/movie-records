@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import App from "../src/App";
-import type { Movie } from "../src/interfaces/movie";
+//import type { Movie } from "../src/interfaces/movie";
 
 describe("App Component", () => {
     test("renders the course name somewhere", () => {
